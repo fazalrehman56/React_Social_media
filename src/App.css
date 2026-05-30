@@ -1,0 +1,45 @@
+.app-component{
+  display: flex;
+}
+.items-copunent{
+  width: 100%;
+}
+.SideBar{
+  height: 602px;
+}
+.myown{
+  margin: 20px;
+}
+.own{
+  margin: 1px
+}
+.delelet{
+       margin-left: 361px;
+}
+.wid{
+  width: 77%;
+     margin: 25px 17px 21px 94px;
+  font-size: large;
+ 
+}
+.btn2{
+   width: 15% !important;
+   margin-left: 94px;
+}
+.post{
+    height: 350px;
+      width: 100%;
+    /* grid-auto-columns: min-content; */
+    grid: 2px;
+    display: grid;
+    /* grid-auto-columns: unset; */
+    grid-template-columns: 417px 85px;
+   overflow: auto;
+}
+.post ::-webkit-scrollbar-thumb{
+  background-color: black;
+  height: 200px;
+}
+body{
+  overflow: hidden;
+}
